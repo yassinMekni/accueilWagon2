@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto:wght@100&display=swap");
+@import url("componets/container.css");
+@import url("componets/avatar.css");
+@import url("componets/button.css");
+@import url("componets/banner.css");
+@import url("componets/card.css");
+
+
+body{
+
+	font-size: 18px;
+	background-color: #EAEDED;
+}
+
+/*h1,h2,h3{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+*/
+
+@media (max-width:960px){
+
+.container {
+width: 700px;
+}
+}
+@media (max-width: 720px){
+.container {
+width: 500px;
+}
+}
+@media (max-width: 542px) {
+.container {
+width: 300px;
+}
+}
+
+a{
+	text-decoration: none;
+}
